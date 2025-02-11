@@ -1,0 +1,38 @@
+/*pseudoclass*/
+
+div p:hover{
+    color: red;
+    font-size:2em;
+}
+
+div p:nth-child(3) {
+    font-weight: bold;
+}
+div p:nth-child(4) {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+/*pseudoelemts*/
+
+p::first-line{
+    color: blueviolet;
+}
+
+p::first-letter{
+    font-size: 2em;
+    color: red;
+}
+
+p::before{
+    content: "😉";
+}
+
+p::after{
+    content: " 😊 ";
+}
+
+p::placeholder {
+    color:red;
+}
+

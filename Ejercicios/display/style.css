@@ -1,0 +1,24 @@
+/*tipos de display*/
+div {
+    display: inline-block;
+    background: lightseagreen;
+    width: 200px;
+    height: 100 px;
+    margin: 10 px;
+}
+
+a {
+    display: inline-block;
+    background: lightcoral;
+    width: 200px;
+    height:100px;
+    margin: 20px; /*inline margin only left and right*/
+}
+
+button{
+    background: lightgray;
+    width:100px;
+    height:100px;
+    margin: 20 px;
+}
+

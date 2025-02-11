@@ -1,0 +1,78 @@
+
+body {
+    background: rgb(169, 161, 206);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    color:#000544;
+    size: 4em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+    font-size: 4em;
+    text-align: center;
+}
+
+.lorem {
+    width: 100px;
+    height: 100px;
+
+}
+
+.lorem img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.topnav {
+    width: 100%;
+    display: flex;
+    
+    background-color: #000544;
+    overflow: hidden;
+}
+  
+.topnav a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(245, 93, 4);
+}
+
+main{
+    width: 100%;
+
+}
+
+footer {
+    display: block;
+    background: rgb(250, 52, 2);
+  }
+
+  nav {
+    left: 1115px;
+    top: 62px;
+    position: fixed; 
+}

@@ -1,0 +1,36 @@
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background: peachpuff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card p:nth-child(3){
+    color: rgba(182, 22, 22, 0.788);
+    font-size: 1.5em;
+
+
+}

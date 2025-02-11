@@ -1,0 +1,17 @@
+/*Usando Flexbox*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: lightgrey;
+    height: 300px;
+}
+
+.item{
+    background: lightcoral;
+    width: 100px;
+    height: 100px;
+}

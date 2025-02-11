@@ -1,0 +1,23 @@
+/*combinadores descrescendo*/
+
+div p{
+    color: rgb(3, 78, 22);
+}
+
+/*hijo directo */
+
+div>div{
+    background: plum;
+}
+
+/* Elemento adyacento*/
+
+div + section{
+    background:salmon;
+}
+
+/*general de hermanos*/
+
+div ~p{
+    color: red;
+}

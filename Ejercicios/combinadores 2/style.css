@@ -1,0 +1,31 @@
+/*descendeientes*/
+
+div p{
+    color: lightcoral;
+    background: gray;
+}
+
+/*hijo directo*/
+
+div > p{
+    background: lightslategray;
+}
+
+/*elementos adyacentes*/
+
+h1+div{
+    background: rgb(1, 77, 90);
+}
+
+/* general de hermanos*/
+
+div ~ p.especifidad{
+    font-size: 1.5em;
+    background-color: aquamarine;
+}
+
+/* aplicar mismo estilos a diferentes selectores*/
+
+div, p, a{
+    background: lightsalmon;
+}
