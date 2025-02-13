@@ -1,0 +1,17 @@
+html{
+    font-family: monospace;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background: black;
+    color: greenyellow;
+}
+
+.lastResult {
+    color: rgb(75, 219, 255);
+    padding: 3px;
+}
